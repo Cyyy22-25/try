@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Cor Magna Pharmaceuticals</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Oswald:wght@500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Lato', sans-serif; /* Default body font */
+            background-color: #004d3b;
+            color: white;
+        }
+
+        /* --- Header Styles (Copied from previous example for consistency) --- */
+        .header {
+            background-color: #004d3b;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+        }
+
+        .header-left img {
+            height: 30px;
+            margin-right: 10px;
+        }
+
+        .header-left .company-name {
+            font-family: 'Oswald', sans-serif;
+            font-weight: 700;
+            font-size: 1.1em;
+            letter-spacing: 1px;
+        }
+
+        .navbar {
+            display: flex;
+            gap: 20px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+            font-family: 'Lato', sans-serif;
+            font-weight: 700;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
+        .navbar a.active {
+            /* Style for the active/current page link, e.g., 'ABOUT US' */
+            border-bottom: 2px solid #d4af37; /* Highlight active page */
+        }
+
+        .search-box {
+            display: flex;
+            align-items: center;
+        }
+
+        .search-box input {
+            border: 1px solid #ccc;
+            padding: 5px;
+            border-radius: 3px;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .search-box button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 3px;
+            cursor: pointer;
+            margin-left: 5px;
+            font-family: 'Lato', sans-serif;
+            font-weight: bold;
+        }
+
+        /* --- About Us Page Specific Styles --- */
+        .about-section {
+            background-color: #1a4d34;
+            padding: 50px 20px;
+            text-align: center; /* Center the text sections */
+        }
+
+        .about-section h1 { /* WHO WE ARE: */
+            font-family: 'Oswald', sans-serif;
+            font-size: 3em;
+            color: #d4af37; /* Golden color from previous designs */
+            margin-bottom: 40px;
+            text-transform: uppercase;
+        }
+
+        .about-content {
+            max-width: 900px; /* Adjust max-width as needed */
+            margin: 0 auto; /* Center the content block */
+            text-align: left; /* Text within the content block aligns left */
+            font-size: 1.2em;
+            line-height: 1.8;
+            color: white; /* Default text color */
+        }
+
+        .about-content p {
+            margin-bottom: 20px;
+        }
+
+        .about-content strong { /* For bold text like "heart of greatness" */
+            font-weight: 700; /* Use a strong weight */
+            color: #d4af37; /* Highlighted color */
+            font-family: 'Playfair Display', serif; /* A distinct font for emphasis */
+            font-size: 1.1em; /* Slightly larger */
+        }
+
+        .meaning-section {
+            background-color: #1a4d34;
+            padding: 50px 20px;
+            text-align: center;
+            border-top: 2px solid rgba(255, 255, 255, 0.1); /* Separator line */
+            margin-top: 50px; /* Space from the above section */
+        }
+
+        .meaning-section h2 { /* THE MEANING BEHIND OUR NAME: */
+            font-family: 'Oswald', sans-serif;
+            font-size: 3em;
+            color: #d4af37;
+            margin-bottom: 40px;
+            text-transform: uppercase;
+        }
+
+        .meaning-content {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: left;
+            font-size: 1.2em;
+            line-height: 1.8;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-left">
+            <img src="https://via.placeholder.com/30x30?text=Logo" alt="Cor Magna Logo">
+            <span class="company-name">COR MAGNA PHARMACEUTICALS HOLDING INC</span>
+        </div>
+        <nav class="navbar">
+            <a href="index.html">HOME</a>
+            <a href="indexx.html" class="active">ABOUT US</a> <a href="#">CONTACT</a>
+        </nav>
+        <div class="search-box">
+            <input type="text" placeholder="Search...">
+            <button type="submit">Q</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="about-section">
+            <h1>WHO WE ARE:</h1>
+            <div class="about-content">
+                <p>Cor Magna Pharmaceuticals Holding Inc. is a pioneering force in the pharmaceutical industry, dedicated to advancing health and wellness through innovative solutions.</p>
+                <p>Founded on a commitment to excellence and integrity, we specialize in the distribution of high-quality medications that address the diverse needs of patients nationwide.</p>
+            </div>
+
+            <div class="meaning-section">
+                <h2>THE MEANING BEHIND OUR NAME:</h2>
+                <div class="meaning-content">
+                    <p>The name "Cor Magna" is derived from Latin, where "Cor" means "heart" and "Magna" translates to "great". Together, "Cor Magna" symbolizes our core mission: to be the <strong>heart of greatness</strong> in the pharmaceutical industry.</p>
+                    </div>
+            </div>
+        </section>
+    </main>
+
+    </body>
+</html>
